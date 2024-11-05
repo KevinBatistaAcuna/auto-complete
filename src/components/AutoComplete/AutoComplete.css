@@ -1,0 +1,40 @@
+/* AutoComplete.css */
+.auto-complete-container {
+  position: relative;
+  width: 200px;
+}
+
+.auto-complete-input {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.suggestions-container {
+  border: 1px solid #ccc;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestion-item:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.suggestion-item:nth-child(odd) {
+  background-color: #fff;
+}
+
+.highlight {
+  font-weight: bold;
+}
